@@ -1,0 +1,40 @@
+.showSuggestionWrapper {
+    display: block;
+}
+
+.hideSuggestionWrapper {
+    display: none;
+}
+
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+}
+
+#searchBar {
+    width: 400px;
+    position: relative;
+}
+
+#searchInput {
+    height: 40px;
+    width: 100%;
+}
+
+
+#suggestionWrapper {
+    background-color: #f1f1f1;
+    max-width: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 40px;
+}
+
+#suggestionWrapper div {
+    padding: 10px;
+}
